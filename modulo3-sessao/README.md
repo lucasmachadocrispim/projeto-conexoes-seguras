@@ -1,6 +1,6 @@
 # Módulo 3: Segurança de Sessão (HttpOnly vs XSS)
 
-## 1. Ferramental Usado
+## 1. Ferramentas Usadas
 * **VS Code** com a extensão **Live Server** (para rodar o servidor HTTP local).
 * **Navegador Web** (Edge, Chrome ou Firefox).
 * **DevTools** (Console do Navegador) para execução de scripts.
