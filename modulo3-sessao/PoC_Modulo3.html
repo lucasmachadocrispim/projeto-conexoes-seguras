@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portal Corporativo - Autenticação Segura</title>
+    <link rel="stylesheet" href="PoC_Modulo3.css">
+    <script src="PoC_Modulo3.js"></script>
+</head>
+<body>
+
+    <div class="login-container">
+        <div class="logo">Login Senai</div>
+        <div class="subtitle">Teste de Segurança de Sessão</div>
+
+        <form id="loginForm" onsubmit="efetuarLogin(event)">
+            <div class="input-group">
+                <label for="username">Usuário Corporativo</label>
+                <input type="text" id="username" placeholder="ex: admin@gmail.com" required>
+            </div>
+            
+            <div class="input-group">
+                <label for="password">Senha de Rede</label>
+                <input type="password" id="password" placeholder="••••••••" required>
+            </div>
+
+            <button type="submit" class="btn-submit">Entrar</button>
+        </form>
+
+        <div class="config-panel">
+            <h4>Configuração do Servidor (PoC)</h4>
+            <div class="radio-group">
+                <label>
+                    <input type="radio" name="seguranca" value="vulneravel" checked> 
+                    Modo Vulnerável (Sem HttpOnly)
+                </label>
+                <label>
+                    <input type="radio" name="seguranca" value="seguro"> 
+                    Modo Seguro (Simulação HttpOnly)
+                </label>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
