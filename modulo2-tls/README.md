@@ -10,7 +10,7 @@
 ## 2. Passo a Passo
 1. Certifique-se de ter o Python instalado e instale a biblioteca de criptografia executando o comando no terminal:
    ```bash
-   pip install cryptography```
+   pip install cryptography
 
 2. Abra o terminal na pasta do módulo e execute o arquivo script da PoC:
    python PoC_Modulo2.py
